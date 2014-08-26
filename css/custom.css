@@ -1,0 +1,52 @@
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  color: inherit;
+}
+.m-brand {
+  width: auto;
+}
+.m-brand h1 {
+  width: 230px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+.m-brand h1 a {
+  display: block;
+  width: 100%;
+  height: 120px;
+}
+.m-brand h1 span,
+.m-brand h1 strong {
+  display: none;
+}
+.m-brand .valores {
+  width: auto;
+  float: right;
+}
+.m-legal {
+  color: #ffffff;
+  background-color: #00275b;
+}
+.navbar.primary ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar.primary ul li {
+  display: block;
+  width: 12%;
+  text-align: center;
+  line-height: 1.2;
+}
+.navbar.primary ul li ul {
+  color: #444444;
+  background-color: #dddddd;
+  float: left;
+}
+.navbar.primary ul li ul li {
+  width: 100%;
+  text-align: left;
+}
