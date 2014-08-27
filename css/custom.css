@@ -201,3 +201,7 @@ a:hover {
   font-family: inherit;
   color: #00275b;
 }
+.details > iframe
+{
+  height: 285px;
+}
