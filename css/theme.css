@@ -15,6 +15,10 @@ nav {
   background-image: -webkit-linear-gradient(180deg, #f6f6f7, #dddddd);
   background-image: -moz-linear-gradient(180deg, #f6f6f7, #dddddd);
   background-image: linear-gradient(180deg, #f6f6f7, #dddddd);
+  z-index: 2;
+}
+main {
+  z-index: 1;
 }
 footer {
   border-top: 1px solid #bbbbbb;
@@ -88,7 +92,7 @@ ol,
 }
 .navbar.primary ul li {
   display: block;
-  width: 12%;
+  width: 11%;
   text-align: center;
   line-height: 1.2;
 }
@@ -102,11 +106,30 @@ ol,
   float: left;
 }
 .navbar.primary ul li ul li {
-  width: 100%;
+  width: 255px;
   text-align: left;
   color: #444444;
+  background-color: #eeeeee;
+}
+.navbar.primary ul li ul ul li {
   background-color: #dddddd;
+}
+.navbar.primary ul li ul li a:hover {
+  color: #ffffff;
+  background-color: #00275b;
 }
 .navbar.primary .large {
   width: 16%;
+}
+.navbar.primary .submenu:before {
+  display: inline-block;
+  content: '»';
+  width: 24px;
+  height: 28px;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 28px;
 }
