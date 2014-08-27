@@ -5,6 +5,27 @@ h4 a,
 h5 a {
   color: inherit;
 }
+a:hover {
+  text-decoration: underline;
+}
+.m-sidemenu {
+  width: auto;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  font-size: 1.8em;
+  color: #00275b;
+  text-align: center;
+  margin-right: 10px;
+}
+.m-sidemenu a {
+  color: inherit;
+  display: block;
+}
+.m-sidemenu a:hover {
+  color: #ffffff;
+  background-color: #00275b;
+}
 .m-brand {
   width: auto;
 }
@@ -63,17 +84,17 @@ h5 a {
   background-color: #f6f6f7;
   margin-top: 24px;
 }
-.m-banner .reel {
+.m-banner .bxslider {
   margin: 0;
   padding: 0;
 }
-.m-banner .reel img {
+.m-banner .bxslider img {
   display: block;
 }
-.m-banner .reel .caption {
-  padding: 96px 25px 25px 0;
+.m-banner .bxslider .caption {
+  padding: 112px 25px 25px 0;
 }
-.m-banner .reel .caption .more {
+.m-banner .bxslider .caption .more {
   display: block;
   position: relative;
   float: left;
@@ -124,9 +145,13 @@ h5 a {
 .m-sitemap {
   margin-top: 24px;
 }
+.m-sitemap .social-media {
+  text-align: center;
+}
 .m-legal {
   color: #ffffff;
   background-color: #00275b;
+  padding: 10px;
 }
 .heading.secondary {
   font: bold 1.6em a;

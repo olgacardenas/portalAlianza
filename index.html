@@ -14,7 +14,9 @@
   <link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon">
   <link href="css/uno.css" rel="stylesheet">
   <link href="fonts/FontAwesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="javascript/libs/bxslider/jquery.bxslider.css" rel="stylesheet">
   <script src="javascript/libs/jquery-1.11.1.min.js"></script>
+  <script src="javascript/libs/bxslider/jquery.bxslider.min.js"></script>
   <script src="javascript/modernizr.js"></script>
   <script src="javascript/modernizr.load.js"></script>
 </head>
@@ -73,7 +75,15 @@
   <main>
     <section class="max-width">
       <div class="m-banner panel primary">
-        <ul class="reel">
+        <ul class="bxslider">
+          <li class="grid split-2 separate">
+            <div class="image"><img src="images/banner/foto1.jpg"></div>
+            <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, maiores. Sed tempore incidunt consequatur impedit, minus esse voluptas nemo eligendi ex saepe vitae.<a href="detalle.html" class="more">Más información</a></div>
+          </li>
+          <li class="grid split-2 separate">
+            <div class="image"><img src="images/banner/foto1.jpg"></div>
+            <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, maiores. Sed tempore incidunt consequatur impedit, minus esse voluptas nemo eligendi ex saepe vitae.<a href="detalle.html" class="more">Más información</a></div>
+          </li>
           <li class="grid split-2 separate">
             <div class="image"><img src="images/banner/foto1.jpg"></div>
             <div class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, maiores. Sed tempore incidunt consequatur impedit, minus esse voluptas nemo eligendi ex saepe vitae.<a href="detalle.html" class="more">Más información</a></div>
@@ -153,4 +163,5 @@
     </section>
   </footer>
   <script src="javascript/scripts.js"></script>
+  <script>$('.bxslider').bxSlider();</script>
 </body>
