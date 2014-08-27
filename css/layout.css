@@ -1,18 +1,67 @@
+.l-stacked main {
+  overflow-x: hidden;
+}
+.l-stacked main > section {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.js-toggle .l-stacked main > section {
+  -webkit-transform: translate(100%, 0);
+  -moz-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+}
+@media screen and (min-width: 960px) {
+  .js-toggle .l-stacked main > section {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+.l-stacked nav {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transform: translate(-100%, 0);
+  -moz-transform: translate(-100%, 0);
+  -ms-transform: translate(-100%, 0);
+  transform: translate(-100%, 0);
+  z-index: 2;
+}
+.js-toggle .l-stacked nav {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+@media screen and (min-width: 960px) {
+  .l-stacked nav {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+@media all and (min-width: 960px) {
+  .l-stacked .m-sidemenu {
+    display: none;
+  }
+}
 .l-stacked .fixed.max-width {
-  width: 840px;
-  left: -420px;
+  width: 960px;
+  left: -480px;
   margin-left: 50%;
 }
 .l-stacked .lined-up > li {
   width: auto;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-stacked.fixed {
     position: relative;
   }
   .l-stacked.fixed .max-width {
-    width: 840px;
-    left: -420px;
+    width: 960px;
+    left: -480px;
     margin-left: 50%;
     position: relative;
   }
@@ -21,20 +70,20 @@
   padding-top: 65px;
 }
 .l-top-nav .fixed.max-width {
-  width: 840px;
-  left: -420px;
+  width: 960px;
+  left: -480px;
   margin-left: 50%;
 }
 .l-top-nav .lined-up > li {
   width: auto;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-top-nav.fixed {
     position: relative;
   }
   .l-top-nav.fixed .max-width {
-    width: 840px;
-    left: -420px;
+    width: 960px;
+    left: -480px;
     margin-left: 50%;
     position: relative;
   }
@@ -46,20 +95,20 @@
   height: 65px;
 }
 .l-right-top-nav .fixed.max-width {
-  width: 840px;
-  left: -420px;
+  width: 960px;
+  left: -480px;
   margin-left: 50%;
 }
 .l-right-top-nav .lined-up > li {
   width: auto;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-right-top-nav.fixed {
     position: relative;
   }
   .l-right-top-nav.fixed .max-width {
-    width: 840px;
-    left: -420px;
+    width: 960px;
+    left: -480px;
     margin-left: 50%;
     position: relative;
   }
@@ -70,13 +119,13 @@
   left: 192px;
   z-index: 2;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-right-top-nav.fixed header {
     width: 50%;
-    left: -36px;
+    left: -96px;
   }
   .l-right-top-nav.fixed header > section {
-    padding-left: 228px;
+    padding-left: 288px;
   }
   .l-right-top-nav.fixed header .max-width {
     width: 192px;
@@ -90,7 +139,7 @@
 .l-right-top-nav nav > section {
   padding-left: 192px;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-right-top-nav.fixed nav {
     margin-left: -50%;
     left: 192px;
@@ -100,20 +149,20 @@
   clear: left;
 }
 .l-left-nav .fixed.max-width {
-  width: 840px;
-  left: -420px;
+  width: 960px;
+  left: -480px;
   margin-left: 50%;
 }
 .l-left-nav .lined-up > li {
   width: auto;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-left-nav.fixed {
     position: relative;
   }
   .l-left-nav.fixed .max-width {
-    width: 840px;
-    left: -420px;
+    width: 960px;
+    left: -480px;
     margin-left: 50%;
     position: relative;
   }
@@ -124,13 +173,13 @@
   left: 275px;
   z-index: 2;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-left-nav.fixed nav {
     width: 50%;
-    left: 130px;
+    left: 70px;
   }
   .l-left-nav.fixed nav > section {
-    padding-left: 145px;
+    padding-left: 205px;
   }
   .l-left-nav.fixed nav .max-width {
     width: 275px;
@@ -144,7 +193,7 @@
 .l-left-nav main > section {
   padding-left: 275px;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-left-nav.fixed main {
     margin-left: -50%;
     left: 275px;
@@ -155,20 +204,20 @@
   clear: left;
 }
 .l-right-nav .fixed.max-width {
-  width: 840px;
-  left: -420px;
+  width: 960px;
+  left: -480px;
   margin-left: 50%;
 }
 .l-right-nav .lined-up > li {
   width: auto;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-right-nav.fixed {
     position: relative;
   }
   .l-right-nav.fixed .max-width {
-    width: 840px;
-    left: -420px;
+    width: 960px;
+    left: -480px;
     margin-left: 50%;
     position: relative;
   }
@@ -179,13 +228,13 @@
   left: 275px;
   z-index: 2;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-right-nav.fixed nav {
     width: 50%;
-    left: 130px;
+    left: 70px;
   }
   .l-right-nav.fixed nav > section {
-    padding-left: 145px;
+    padding-left: 205px;
   }
   .l-right-nav.fixed nav .max-width {
     width: 275px;
@@ -199,7 +248,7 @@
 .l-right-nav main > section {
   padding-left: 275px;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-right-nav.fixed main {
     margin-left: -50%;
     left: 275px;
@@ -210,20 +259,20 @@
   clear: left;
 }
 .l-fix-left-nav .fixed.max-width {
-  width: 840px;
-  left: -420px;
+  width: 960px;
+  left: -480px;
   margin-left: 50%;
 }
 .l-fix-left-nav .lined-up > li {
   width: auto;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-fix-left-nav.fixed {
     position: relative;
   }
   .l-fix-left-nav.fixed .max-width {
-    width: 840px;
-    left: -420px;
+    width: 960px;
+    left: -480px;
     margin-left: 50%;
     position: relative;
   }
@@ -252,14 +301,14 @@
   -webkit-overflow-scrolling: touch;
   max-height: 100%;
 }
-@media all and (min-width: 840px) {
+@media all and (min-width: 960px) {
   .l-fix-left-nav.fixed nav {
     position: fixed;
     width: 50%;
-    left: -145px;
+    left: -205px;
   }
   .l-fix-left-nav.fixed nav > section {
-    padding-left: 145px;
+    padding-left: 205px;
   }
   .l-fix-left-nav.fixed nav .max-width {
     position: relative;

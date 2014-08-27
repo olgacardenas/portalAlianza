@@ -82,3 +82,28 @@ ol,
 .table {
   margin-bottom: 24px;
 }
+.navbar.primary ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar.primary ul li {
+  display: block;
+  width: 12%;
+  text-align: center;
+  line-height: 1.2;
+}
+.navbar.primary ul li a {
+  padding: 5px 5px;
+}
+.navbar.primary ul li ul {
+  color: #444444;
+  background-color: #dddddd;
+  float: left;
+}
+.navbar.primary ul li ul li {
+  width: 100%;
+  text-align: left;
+}
+.navbar.primary .large {
+  width: 16%;
+}
