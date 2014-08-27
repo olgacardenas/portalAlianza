@@ -79,6 +79,49 @@ a:hover {
   width: auto;
   float: right;
 }
+.navbar.dropdown2 ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.navbar.dropdown2 ul li ul li {
+  width: 210px;
+}
+.navbar.dropdown2 ul ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+.navbar.dropdown2 li:hover > ul {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  z-index: 2;
+  background-color: #eeeeee;
+}
+.navbar.dropdown2 li:hover > .grid {
+  height: 210px;
+}
+.navbar.dropdown2 ul li a {
+  padding: 5px;
+}
+.navbar.dropdown2 .grid {
+  width: 630px;
+}
+.navbar.dropdown2 ol li {
+  font-size: .9em;
+  font-weight: normal;
+}
+.navbar.dropdown2 .grid li {
+  border-left: 1px solid #dddddd;
+}
+.navbar.dropdown2 .grid li > a {
+  font-weight: bold;
+}
+.navbar.dropdown2 .grid li li a {
+  font-weight: normal;
+}
 .m-banner {
   color: #444444;
   background-color: #f6f6f7;
